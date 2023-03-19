@@ -494,7 +494,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/etc/wfdconfig.xml:$(TARGET_COPY_OUT_VENDOR)/etc/wfdconfig.xml \
     vendor/motorola/dubai/proprietary/vendor/etc/xtra_root_cert.pem:$(TARGET_COPY_OUT_VENDOR)/etc/xtra_root_cert.pem \
     vendor/motorola/dubai/proprietary/vendor/etc/xtwifi.conf:$(TARGET_COPY_OUT_VENDOR)/etc/xtwifi.conf \
-    vendor/motorola/dubai/proprietary/vendor/firmware/CAMERA_ICP.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP.elf \
     vendor/motorola/dubai/proprietary/vendor/firmware/CAMERA_ICP_170.elf:$(TARGET_COPY_OUT_VENDOR)/firmware/CAMERA_ICP_170.elf \
     vendor/motorola/dubai/proprietary/vendor/firmware/a615_zap.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b00 \
     vendor/motorola/dubai/proprietary/vendor/firmware/a615_zap.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/a615_zap.b01 \
@@ -563,50 +562,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/firmware/aw_skt.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/aw_skt.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/csot_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_cfg_group.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/csot_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/csot_goodix_test_limits_255.csv \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b00 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b01 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b02 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b03 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b04 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b05 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b06 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b07 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b08 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b09 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b10 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b11 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b12 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b13 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b14 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b15 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b16 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b17 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b18 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.b19 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mbn \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass-lt.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass-lt.mdt \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b00:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b00 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b01 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b02 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b03 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b04 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b05 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b06 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b07 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b08 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b09 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b10 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b11 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b12 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b13 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b14 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b15 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b16 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b17 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b18 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.b19 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mbn \
-    vendor/motorola/dubai/proprietary/vendor/firmware/evass.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/evass.mdt \
     vendor/motorola/dubai/proprietary/vendor/firmware/goodix-csot-gt9916S-2202250f-62187be9-dubai.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-csot-gt9916S-2202250f-62187be9-dubai.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/goodix-tianma-gt9916S-2202250f-62187c3e-dubai.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/goodix-tianma-gt9916S-2202250f-62187c3e-dubai.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/mot_dw9781c.prog:$(TARGET_COPY_OUT_VENDOR)/firmware/mot_dw9781c.prog \
@@ -617,50 +572,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/firmware/st21nfc_fw7.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/st21nfc_fw7.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/tianma_goodix_cfg_group.bin:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_cfg_group.bin \
     vendor/motorola/dubai/proprietary/vendor/firmware/tianma_goodix_test_limits_255.csv:$(TARGET_COPY_OUT_VENDOR)/firmware/tianma_goodix_test_limits_255.csv \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b01 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b02 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b03 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b04 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b05 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b06 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b07 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b08 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b09 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b10 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b11 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b12 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b13 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b14 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b15 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b16 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b17 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b18 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.b19 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mbn \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v.mdt \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_2v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_2v_unsigned.mbn \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b01:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b01 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b02:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b02 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b03:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b03 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b04:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b04 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b05:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b05 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b06:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b06 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b07:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b07 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b08:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b08 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b09:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b09 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b10:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b10 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b11:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b11 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b12:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b12 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b13:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b13 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b14:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b14 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b15:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b15 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b16:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b16 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b17:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b17 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b18:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b18 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.b19:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.b19 \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mbn \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v.mdt:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v.mdt \
-    vendor/motorola/dubai/proprietary/vendor/firmware/vpu20_4v_unsigned.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/vpu20_4v_unsigned.mbn \
     vendor/motorola/dubai/proprietary/vendor/lib/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib/btaudio_offload_if.so \
     vendor/motorola/dubai/proprietary/vendor/lib/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so \
     vendor/motorola/dubai/proprietary/vendor/lib/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so \
