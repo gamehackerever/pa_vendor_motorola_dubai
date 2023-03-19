@@ -1624,6 +1624,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     android.hardware.neuralnetworks@1.3-service-qti \
     manifest_android.hardware.drm@1.3-service.widevine \
-    vendor.dolby.media.c2@1.0-service \
     vendor.qti.diag.hal.service \
     vendor.qti.gnss@4.0-service
