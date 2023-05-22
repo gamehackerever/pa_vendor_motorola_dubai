@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
      Netmgr Module configuration XML file
-     Copyright (c) 2013, 2016-2021 Qualcomm Technologies, Inc.
+     Copyright (c) 2013, 2016-2022 Qualcomm Technologies, Inc.
      All Rights Reserved.
      Confidential and Proprietary - Qualcomm Technologies, Inc.
 -->
@@ -2803,6 +2803,7 @@
       <data name="kfc_mode" type="int"> 4 </data>
       <data name="kfc_qmap" type="int"> 1 </data>
       <data name="qmi_pc" type="int"> 1 </data>
+      <data name="dfc_ps_ext" type="int"> 0 </data>
       <data name="tcp_ack_prio" type="int"> 1 </data>
 
       <data name="single_qmux_ch_enabled" type="int"> 1 </data>
@@ -3410,6 +3411,7 @@
       <data name="iwlan_concurrency" type="int"> 1 </data>
       <data name="nl_xfrm" type="int"> 1 </data>
       <data name="netdev_max_backlog" type="int"> 10000 </data>
+      <data name="rtnetlink_tc_enabled" type="int"> 1 </data>
       <data name="debug_netdev_max_backlog" type="int"> 1500 </data>
 
       <data name="disable_tcp_hystart_detect" type="int"> 1 </data>
@@ -3419,6 +3421,7 @@
       <data name="pnd_rps_mask" type="int"> 2 </data>
       <data name="vnd_rps_mask" type="int"> 12 </data>
       <data name="qos_via_idl" type="int"> 1 </data>
+      <data name="skip_buffered_qos_modify" type="int"> 1 </data>
       <data name="max_mtu" type="int"> 9216 </data>
       <data name="netmgr_recovery_enabled" type="int"> 1 </data>
       <data name="num_modems" type="int"> 2 </data>
