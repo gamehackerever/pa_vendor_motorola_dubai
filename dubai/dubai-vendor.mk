@@ -13,6 +13,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/system_ext/etc/permissions/moto-telephony.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/moto-telephony.xml \
     vendor/motorola/dubai/proprietary/system/etc/permissions/privapp-permissions-qti.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/permissions/privapp-permissions-qti.xml \
     vendor/motorola/dubai/proprietary/system/etc/sysconfig/qti_whitelist.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/sysconfig/qti_whitelist.xml \
+    vendor/motorola/dubai/proprietary/system/system/etc/permissions/com.motorola.frameworks.core.addon.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/permissions/com.motorola.frameworks.core.addon.xml \
+    vendor/motorola/dubai/proprietary/system/system/etc/permissions/com.motorola.motosignature.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/permissions/com.motorola.motosignature.xml \
+    vendor/motorola/dubai/proprietary/system/system/etc/permissions/moto-checkin.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/permissions/moto-checkin.xml \
+    vendor/motorola/dubai/proprietary/system/system/etc/permissions/moto-settings.xml:$(TARGET_COPY_OUT_SYSTEM)/system/etc/permissions/moto-settings.xml \
     vendor/motorola/dubai/proprietary/system_ext/bin/dpmd:$(TARGET_COPY_OUT_SYSTEM_EXT)/bin/dpmd \
     vendor/motorola/dubai/proprietary/system_ext/etc/dpm/dpm.conf:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/dpm/dpm.conf \
     vendor/motorola/dubai/proprietary/system_ext/etc/init/dpmd.rc:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/init/dpmd.rc \
@@ -72,8 +76,11 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/android.hardware.drm@1.3-service.widevine:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.drm@1.3-service.widevine \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/android.hardware.gatekeeper@1.0-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.gatekeeper@1.0-service-qti \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/android.hardware.keymaster@4.1-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.keymaster@4.1-service-qti \
+    vendor/motorola/dubai/proprietary/vendor/bin/hw/dolbycodec2:$(TARGET_COPY_OUT_VENDOR)/bin/hw/dolbycodec2 \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/motorola.hardware.camera.desktop@2.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.desktop@2.0-service \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/qcrilNrd:$(TARGET_COPY_OUT_VENDOR)/bin/hw/qcrilNrd \
+    vendor/motorola/dubai/proprietary/vendor/bin/hw/vendor.dolby.dms.service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.dms.service \
+    vendor/motorola/dubai/proprietary/vendor/bin/hw/vendor.dolby.media.c2@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.dolby.media.c2@1.0-service \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/vendor.qti.hardware.alarm@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.alarm@1.0-service \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service \
     vendor/motorola/dubai/proprietary/vendor/bin/hw/vendor.qti.hardware.eid@1.0-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/vendor.qti.hardware.eid@1.0-service \
@@ -172,6 +179,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/etc/data/dsi_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/dsi_config.xml \
     vendor/motorola/dubai/proprietary/vendor/etc/data/netmgr_config.xml:$(TARGET_COPY_OUT_VENDOR)/etc/data/netmgr_config.xml \
     vendor/motorola/dubai/proprietary/vendor/etc/default-permissions/com.qualcomm.qti.cne.xml:$(TARGET_COPY_OUT_VENDOR)/etc/default-permissions/com.qualcomm.qti.cne.xml \
+    vendor/motorola/dubai/proprietary/vendor/etc/dolby/dax-default-spatializer.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default-spatializer.xml \
+    vendor/motorola/dubai/proprietary/vendor/etc/dolby/dax-default.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-default.xml \
+    vendor/motorola/dubai/proprietary/vendor/etc/dolby/dax-moto_1.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-moto_1.xml \
+    vendor/motorola/dubai/proprietary/vendor/etc/dolby/dax-moto_2.xml:$(TARGET_COPY_OUT_VENDOR)/etc/dolby/dax-moto_2.xml \
     vendor/motorola/dubai/proprietary/vendor/etc/flp.conf:$(TARGET_COPY_OUT_VENDOR)/etc/flp.conf \
     vendor/motorola/dubai/proprietary/vendor/etc/gnss_antenna_info.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gnss_antenna_info.conf \
     vendor/motorola/dubai/proprietary/vendor/etc/gps.conf:$(TARGET_COPY_OUT_VENDOR)/etc/gps.conf \
@@ -202,6 +213,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/etc/init/qcrilNrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qcrilNrd.rc \
     vendor/motorola/dubai/proprietary/vendor/etc/init/qmipriod.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/qmipriod.rc \
     vendor/motorola/dubai/proprietary/vendor/etc/init/shsusrd.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/shsusrd.rc \
+    vendor/motorola/dubai/proprietary/vendor/etc/init/vendor.dolby.media.c2@1.0-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.dolby.media.c2@1.0-service.rc \
     vendor/motorola/dubai/proprietary/vendor/etc/init/vendor.qti.adsprpc-guestos-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.adsprpc-guestos-service.rc \
     vendor/motorola/dubai/proprietary/vendor/etc/init/vendor.qti.cdsprpc-service.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.cdsprpc-service.rc \
     vendor/motorola/dubai/proprietary/vendor/etc/init/vendor.qti.diag.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/vendor.qti.diag.rc \
@@ -843,6 +855,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysession@1.0.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysession@1.0.so \
     vendor/motorola/dubai/proprietary/vendor/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so:$(TARGET_COPY_OUT_VENDOR)/lib/vendor.qti.hardware.wifidisplaysessionl@1.0-halimpl.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/btaudio_offload_if.so:$(TARGET_COPY_OUT_VENDOR)/lib64/btaudio_offload_if.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/c2.dolby.client.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.client.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/c2.dolby.hevc.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.dec.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/c2.dolby.hevc.sec.dec.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.hevc.sec.dec.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/c2.dolby.store.so:$(TARGET_COPY_OUT_VENDOR)/lib64/c2.dolby.store.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_dubai_gc02m1b_otp.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_ov50a_eeprom.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so:$(TARGET_COPY_OUT_VENDOR)/lib64/camera/com.mot.eeprom.mot_gt24p128e_s5kjn1_eeprom.so \
@@ -1082,6 +1098,7 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcneapiclient.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneapiclient.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcneoplookup.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneoplookup.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcneqmiutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcneqmiutils.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/libcodec2_store_dolby.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcodec2_store_dolby.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcom.qti.chinodeutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcom.qti.chinodeutils.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libconfigdb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libconfigdb.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcvp2_1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp2_1.so \
@@ -1089,6 +1106,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcvp_util.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvp_util.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libcvpcpuRev_skel.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libcvpcpuRev_skel.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libdiag.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdiag.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/libdolbydecoderprocessor.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbydecoderprocessor.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/libdolbyeglcore.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyeglcore.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/libdolbyottcameracontrol.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdolbyottcameracontrol.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libdpmqmihal.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdpmqmihal.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libdsi_netctrl.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsi_netctrl.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/libdsutils.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libdsutils.so \
@@ -1243,6 +1263,9 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/dubai/proprietary/vendor/lib64/soundfx/libqcreverb.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcreverb.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/soundfx/libqcvirt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libqcvirt.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/soundfx/libshoebox.so:$(TARGET_COPY_OUT_VENDOR)/lib64/soundfx/libshoebox.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/vendor.dolby.dms-V1-ndk.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.dms-V1-ndk.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.0.so \
+    vendor/motorola/dubai/proprietary/vendor/lib64/vendor.dolby.hardware.dms@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.dolby.hardware.dms@2.1.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/vendor.egistec.hardware.fingerprint@4.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.egistec.hardware.fingerprint@4.0.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/vendor.qti.data.factory@2.0.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.0.so \
     vendor/motorola/dubai/proprietary/vendor/lib64/vendor.qti.data.factory@2.1.so:$(TARGET_COPY_OUT_VENDOR)/lib64/vendor.qti.data.factory@2.1.so \
@@ -1351,6 +1374,11 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
+    libdapparamstorage \
+    libdeccfg \
+    libdlbdsservice \
+    libswdap \
+    libswgamedap \
     CACertService \
     CneApp \
     IWlanService \
@@ -1361,6 +1389,8 @@ PRODUCT_PACKAGES += \
     ImsRcsService \
     QtiTelephony \
     QtiTelephonyService \
+    MotorolaSettingsProvider \
+    daxService \
     dpmserviceapp \
     ims \
     qcrilmsgtunnel \
@@ -1386,4 +1416,5 @@ PRODUCT_PACKAGES += \
     vendor.qti.ims.rcsuce-V1.1-java \
     vendor.qti.ims.rcsuce-V1.2-java \
     manifest_android.hardware.drm@1.3-service.widevine \
+    vendor.dolby.media.c2.v1.2@1.0-service \
     vendor.qti.diag.hal.service
